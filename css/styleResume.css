@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+body {
+    background-color: rgba(128, 201, 201, 0.3);
+}
+
+.backArrow {
+    zoom: 0.15;
+}
+
+.photo {
+    zoom: 0.4;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.intro {
+    background-image: url('images/1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+.intro h2 {
+    font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.intro p {
+    font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card1 {
+    width: 20%;
+    height: 20%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 2%;
+    /* float: left; */
+    background: #9f8276;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.50);
+}
+
+.card1:hover {
+    box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.80);
+}
+
+.info {
+    padding-top: 20px;
+    padding-left: 1%;
+    margin-bottom: none;
+    font-family: sans-serif;
+}
+
+.block {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.card1 h1 {
+    font-size: 20px;
+    padding-top: none;
+}
+
+.card1 h2 {
+    margin-bottom: auto;
+    padding-bottom: 0%;
+}
+
+.card1 p {
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-top: auto;
+    font-size: 15px;
+}
+
+.card2 {
+    width: 40%;
+    height: 40%;
+    margin-right: 9%;
+    margin-left: 5px;
+    margin-top: 50px;
+    float: right;
+    background: rgba(70, 84, 102, 0.5);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.50);
+}
+
+.card2:hover {
+    box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.80);
+}
+
+.card {
+    width: 82%;
+    height: 55%;
+    margin-left: 9%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    float: left;
+    background: rgba(70, 84, 102, 0.5);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.50);
+}
+
+.card:hover {
+    box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.80);
+}
+
+.card_left {
+    width: 950px;
+    float: left;
+}
+
+.card_right {
+    width: 550px;
+    float: right;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    margin-top: 125%;
+}
