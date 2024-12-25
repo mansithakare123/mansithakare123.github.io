@@ -68,7 +68,7 @@ body {
 }
 
 .block {
-    width: 100%;
+    width: 80%;
     display: flex;
     align-items: center;
 }
