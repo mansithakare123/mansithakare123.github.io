@@ -76,6 +76,7 @@ body {
 .card1 h1 {
     font-size: 20px;
     padding-top: none;
+    margin-top: none;
 }
 
 .card1 h2 {
